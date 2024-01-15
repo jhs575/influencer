@@ -272,11 +272,60 @@ nav .nav-bar ul li i {
 }
 /* products section  end*/
 
-
-
-
 /* featured section start*/
 
+.featured-container{
+    max-width: 1190px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 6.25rem;
+    margin-bottom: 6.25rem;
+}
+.featured-photo{
+    margin-right: 6rem;
+}
+.featured-header{
+    font-family: var(--poppins);
+    font-size: 2.375rem;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 3.75rem;
+    margin-bottom: 1rem;
+    margin-top: 1.4375rem;
+}
+.featured-description{
+    max-width: 501px;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.75rem;
+    font-family: var(--poppins);
+}
+.btn-join{
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    align-items: center;
+    gap: 0.5rem;
+}
+.btn-join p{
+    font-size: 1rem;
+    
+}
+.join-now{
+    border: 0 transparent;
+    padding: 0.625rem 1.5rem;
+    background-color: var(--primary-color);
+    margin-top: 1rem;
+    border-radius: 10px 0;
+    transition: 1200ms;
+    color: white;
+}
+.join-now:hover{
+    border-radius:0  10px;
+}
 /* featured section end*/
 /* main section end*/
 

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Manrope:wght@200;300;400;500;600;700;800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
@@ -30,16 +30,18 @@
     </header>
     <main>
         <div class="hero-container">
-            <div>
-                <h1>Start your Journey as Influencer</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem vestibulum sed scelerisque eros. Lectus faucibus.</p>
-                <button>prebook now <i class='bx bx-right-arrow-alt'></i></button>
+            <div class="hero">
+                <h1 class="hero-title">Start your Journey as Influencer</h1>
+                <p class="hero-description">Explore a diverse selection of top-tier brands, find the perfect camera for every skill level, and unleash your creativity behind the lens. Elevate your photography experience with our expertly curated collection today.</p>
+                <div class="hero-btn">
+                    <button class="prebook-btn">preebook now </button><i class='bx bx-right-arrow-alt'></i>
+                </div>
             </div>
-            <div>
+            <div class="hero-img">
                 <img src="images/main-camera.png" alt="">
-                <p>background circle image insert</p>
             </div>
         </div>
+        <div class="divider"></div>
         <div class="sponsor">
             <img src="logos/Alibaba.svg" alt="">
             <img src="logos/Amazon.svg" alt="">
@@ -49,99 +51,140 @@
             <img src="logos/Walmart.svg" alt="">
             <img src="logos/Target.svg" alt="">
         </div>
+        <div class="divider"></div>
         <div class="products-container">
-            <div>
-                <h1>popular collection</h1>
+            <div class="products-header">
+                <h1 >popular collection</h1>
             </div>
-            <div>
+            <div class="porducts-cards">
                 <div class="card">
                     <img src="images/tripod.png" alt="">
                     <h3>Flex Tripod</h3>
                     <h5>$50.48</h5>
-                    <div>
-                        <img src="" alt="">
+                    <div class="ratings">
+                        <img src="rating-stars/star.png" alt="">
+                        <img src="rating-stars/star.png" alt="">
+                        <img src="rating-stars/star.png" alt="">
+                        <img src="rating-stars/star.png" alt="">
+                        <img src="rating-stars/star-half.png" alt="">
                         <p>4.99</p>
                     </div>
-                    <p>Wordwide shifting available Buyers protection possible!</p>
+                    <p>Wordwide shifting <br> available <br> Buyers protection possible!</p>
                 </div>
                 <div class="card">
                     <img src="images/mic.png" alt="">
-                    <h3>Flex Tripod</h3>
-                    <h5>$50.48</h5>
-                    <div>
-                        <img src="" alt="">
+                    <h3>Microphone</h3>
+                    <h5>$120.25</h5>
+                    <div class="ratings">
+                        <img src="rating-stars/star.png" alt="">
+                        <img src="rating-stars/star.png" alt="">
+                        <img src="rating-stars/star.png" alt="">
+                        <img src="rating-stars/star.png" alt="">
+                        <img src="rating-stars/star-half.png" alt="">
                         <p>4.99</p>
                     </div>
-                    <p>Wordwide shifting available Buyers protection possible!</p>
-                </div><div class="card">
+                    <p>Wordwide shifting <br> available <br> Buyers protection possible!</p>
+                </div>
+                <div class="card">
                     <img src="images/airpod.png" alt="">
-                    <h3>Flex Tripod</h3>
-                    <h5>$50.48</h5>
-                    <div>
-                        <img src="" alt="">
+                    <h3>Airbuds</h3>
+                    <h5>$100.00</h5>
+                    <div class="ratings">
+                        <img src="rating-stars/star.png" alt="">
+                        <img src="rating-stars/star.png" alt="">
+                        <img src="rating-stars/star.png" alt="">
+                        <img src="rating-stars/star.png" alt="">
+                        <img src="rating-stars/star-half.png" alt="">
                         <p>4.99</p>
                     </div>
-                    <p>Wordwide shifting available Buyers protection possible!</p>
-                </div><div class="card">
+                    <p>Wordwide shifting <br> available <br> Buyers protection possible!</p>
+                </div>
+                <div class="card">
                     <img src="images/drone.png" alt="">
-                    <h3>Flex Tripod</h3>
-                    <h5>$50.48</h5>
-                    <div>
-                        <img src="" alt="">
+                    <h3>Drone</h3>
+                    <h5>$980.25</h5>
+                    <div class="ratings">
+                        <img src="rating-stars/star.png" alt="">
+                        <img src="rating-stars/star.png" alt="">
+                        <img src="rating-stars/star.png" alt="">
+                        <img src="rating-stars/star.png" alt="">
+                        <img src="rating-stars/star-half.png" alt="">
                         <p>4.99</p>
                     </div>
-                    <p>Wordwide shifting available Buyers protection possible!</p>
-                </div><div class="card">
+                    <p>Wordwide shifting <br> available <br> Buyers protection possible!</p>
+                </div>
+                <div class="card">
                     <img src="images/lights.png" alt="">
-                    <h3>Flex Tripod</h3>
-                    <h5>$50.48</h5>
-                    <div>
-                        <img src="" alt="">
+                    <h3>Light Setup</h3>
+                    <h5>$1200.00</h5>
+                    <div class="ratings">
+                        <img src="rating-stars/star.png" alt="">
+                        <img src="rating-stars/star.png" alt="">
+                        <img src="rating-stars/star.png" alt="">
+                        <img src="rating-stars/star.png" alt="">
+                        <img src="rating-stars/star-half.png" alt="">
                         <p>4.99</p>
                     </div>
-                    <p>Wordwide shifting available Buyers protection possible!</p>
-                </div><div class="card">
+                    <p>Wordwide shifting <br> available <br> Buyers protection possible!</p>
+                </div>
+                <div class="card">
                     <img src="images/setup.png" alt="">
-                    <h3>Flex Tripod</h3>
-                    <h5>$50.48</h5>
-                    <div>
-                        <img src="" alt="">
+                    <h3>Photoshot set</h3>
+                    <h5>$820.40</h5>
+                    <div class="ratings">
+                        <img src="rating-stars/star.png" alt="">
+                        <img src="rating-stars/star.png" alt="">
+                        <img src="rating-stars/star.png" alt="">
+                        <img src="rating-stars/star.png" alt="">
+                        <img src="rating-stars/star-half.png" alt="">
                         <p>4.99</p>
                     </div>
-                    <p>Wordwide shifting available Buyers protection possible!</p>
+                    <p>Wordwide shifting <br> available <br> Buyers protection possible!</p>
                 </div>
-                </div><div class="card">
+                <div class="card">
                     <img src="images/camera.png" alt="">
-                    <h3>Flex Tripod</h3>
-                    <h5>$50.48</h5>
-                    <div>
-                        <img src="" alt="">
+                    <h3>Vlogging Camera</h3>
+                    <h5>$1800.80</h5>
+                    <div class="ratings">
+                        <img src="rating-stars/star.png" alt="">
+                        <img src="rating-stars/star.png" alt="">
+                        <img src="rating-stars/star.png" alt="">
+                        <img src="rating-stars/star.png" alt="">
+                        <img src="rating-stars/star-half.png" alt="">
                         <p>4.99</p>
                     </div>
-                    <p>Wordwide shifting available Buyers protection possible!</p>
+                    <p>Wordwide shifting <br> available <br> Buyers protection possible!</p>
                 </div>
-                </div><div class="card">
+                <div class="card">
                     <img src="images/single-light.png" alt="">
-                    <h3>Flex Tripod</h3>
-                    <h5>$50.48</h5>
-                    <div>
-                        <img src="" alt="">
+                    <h3>Green Screen</h3>
+                    <h5>$25.48</h5>
+                    <div class="ratings">
+                        <img src="rating-stars/star.png" alt="">
+                        <img src="rating-stars/star.png" alt="">
+                        <img src="rating-stars/star.png" alt="">
+                        <img src="rating-stars/star.png" alt="">
+                        <img src="rating-stars/star-half.png" alt="">
                         <p>4.99</p>
                     </div>
-                    <p>Wordwide shifting available Buyers protection possible!</p>
+                    <p>Wordwide shifting <br> available <br> Buyers protection possible!</p>
                 </div>
-                </div><div class="card">
+                <div class="card">
                     <img src="images/action.png" alt="">
-                    <h3>Flex Tripod</h3>
-                    <h5>$50.48</h5>
-                    <div>
-                        <img src="" alt="">
+                    <h3>Action Camera</h3>
+                    <h5>$380.88</h5>
+                    <div class="ratings">
+                        <img src="rating-stars/star.png" alt="">
+                        <img src="rating-stars/star.png" alt="">
+                        <img src="rating-stars/star.png" alt="">
+                        <img src="rating-stars/star.png" alt="">
+                        <img src="rating-stars/star-half.png" alt="">
                         <p>4.99</p>
                     </div>
-                    <p>Wordwide shifting available Buyers protection possible!</p>
+                    <p>Wordwide shifting <br> available <br> Buyers protection possible!</p>
                 </div>
-                <div class="card-footer"><p>see more <i class='bx bx-right-arrow-alt'></i></p></div>
             </div>
+            <div class="card-footer"><button>see more <i class='bx bx-right-arrow-alt'></i></button></div>
         </div>
         <div class="featured-container">
             <div class="">
@@ -149,7 +192,7 @@
             </div>
             <div class="featured-contant">
                 <h1 class="featured-header">Featured products at one place</h1>
-                <p class="featured-descriotion">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                <p class="featured-descriotion">Discover excellence in every detail with our curated collection of Featured Products. From innovative gadgets to timeless classics, explore a handpicked selection that combines quality, style, and performance—bringing you the best in every category.</p>
                 <button class="join-now">Join Now</button>
             </div>
         </div>

@@ -61,6 +61,13 @@
       height: 202px;
       width: 190px;
     }
+
+
+    .products-cards{
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+        gap: 20px;
+    }
 }
 /* responsive style mobile end*/
 /* responsive style tablet start*/

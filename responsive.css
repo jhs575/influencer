@@ -1,0 +1,31 @@
+
+/* responsive style mobile start*/
+@media screen and (max-width:570px) {
+    nav {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        max-width: 460px;
+        margin: 35px auto 0 auto;
+    }
+    .header-title {
+        font-size: 1rem;
+    }
+    nav>.nav-bar>ul {
+        gap:8px;
+    }
+    nav .nav-bar ul li i {
+        font-size: 1rem;
+    }
+    .nav-bar ul li {
+        font-size: 0.8rem;
+    }
+    .nav-bar ul li img {
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+}
+/* responsive style mobile end*/
+/* responsive style tablet start*/
+
+/* responsive style tablet end*/
